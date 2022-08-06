@@ -29,6 +29,12 @@
     margin-right: auto;
 }
 
+/* trying to center the whole thing here*/
+.image .description {
+    
+}
+/* trying to center the whole thing here */
+
 
 p {
     background-color: hsl(0, 0%, 100%);
@@ -63,17 +69,16 @@ h1 {
 
 
 button {
-    display: block;
+    
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
     margin-top: auto;
-    margin-bottom: auto;
     width: 150px;
     align-self: center;
 }
 
 button:hover {
-    background-color: hsl(158, 36%, 37%);
+    background-color: hsl(158, 36%, 20%);
 }
 
 
