@@ -1,44 +1,32 @@
 * {
     background-color: hsl(30, 38%, 92%);
-    
+
 }
 
-
-.image {
-    display: flex;
-    vertical-align: center;
-    flex-wrap: nowrap;
-}
+.image {}
 
 .description {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    justify-content: flex-end;
     background-color: hsl(0, 0%, 100%);
-    width: 15%;
+    width: 25%;
     height: 450px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 20px 20px;
     padding-left: 30px;
-    
-    
-}
+    padding-bottom: 40px;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
 
-.description, h1 {
-    display: flex;
-    align-text: left;
+
 }
 
 /* trying to center the whole thing here*/
 .image .description {
     display: flex;
-    justify-content: flex-end;
-    
 }
-/* trying to center the whole thing here */
 
+/* trying to center the whole thing here */
 
 p {
     background-color: hsl(0, 0%, 100%);
@@ -47,6 +35,7 @@ p {
     color: hsl(212, 21%, 14%);
     font-weight: bold;
     align-self: left;
+    padding-top: 20px;
 }
 
 .perfume {
@@ -54,8 +43,7 @@ p {
 
 }
 
-.title {
-}
+.title {}
 
 
 h1 {
@@ -70,25 +58,25 @@ h1 {
     font-size: 28px;
     font-family: 'Fraunces';
     font-weight: 900px;
-    
+
 }
 
 .original {
     background-color: hsl(0, 0%, 100%);
     color: hsl(228, 12%, 48%);
     font-size: 10px;
-    justify-content: center;
-    padding-bottom: 0px;
+    vertical-align: baseline;
 }
 
 
 button {
-    
+
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
-    margin-top: 10px;
-    width: 150px;
-    align-self: left;
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
 }
 
 button:hover {
