@@ -3,30 +3,26 @@
 
 }
 
-.image {}
+body {
+
+    vertical-align: middle;
+}
+
+div img {}
 
 .description {
     background-color: hsl(0, 0%, 100%);
     width: 25%;
-    height: 450px;
+    height: 400px;
     border-radius: 20px 20px;
     padding-left: 30px;
     padding-bottom: 40px;
-    display: flexbox;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     margin: auto;
-
-
 }
-
-/* trying to center the whole thing here*/
-.image .description {
-    display: flex;
-}
-
-/* trying to center the whole thing here */
 
 p {
     background-color: hsl(0, 0%, 100%);
@@ -35,15 +31,14 @@ p {
     color: hsl(212, 21%, 14%);
     font-weight: bold;
     align-self: left;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
-.perfume {
-    margin-top: 0%;
+.perfume {}
 
+.title {
+    margin-bottom: auto;
 }
-
-.title {}
 
 
 h1 {
@@ -58,6 +53,8 @@ h1 {
     font-size: 28px;
     font-family: 'Fraunces';
     font-weight: 900px;
+    display: flex;
+
 
 }
 
@@ -65,7 +62,8 @@ h1 {
     background-color: hsl(0, 0%, 100%);
     color: hsl(228, 12%, 48%);
     font-size: 10px;
-    vertical-align: baseline;
+    display: flex;
+    justify-content: center;
 }
 
 
