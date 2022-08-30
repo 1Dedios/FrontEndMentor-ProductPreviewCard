@@ -5,6 +5,7 @@
 
 body {
     display: flex;
+    font-size: 14px;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -19,7 +20,7 @@ div img {
 
 .description {
     background-color: hsl(0, 0%, 100%);
-    width: 25%;
+    width: 20%;
     height: 430px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -83,8 +84,10 @@ button {
     height: 50px;
     border-radius: 10px;
     font-weight: bold;
-    align-content: center;
     padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -97,16 +100,36 @@ button:hover {
     text-decoration: line-through;
 }
 
-@media only screen and (max-width: 599px) {
-    * {
-        background-color: white;
+
+/* media queries below */
+
+@media only screen and (max-width: 375px) {
+
+    body {
+        display: block;
+        margin: 30px 30px 30px 30px;
     }
 
     div img {
-        display: block;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        height: 300px;
+        width: 40vh;
+        margin-bottom: -5px;
     }
 
     .description {
-        display: block;
+        width: 36.5vh;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    div p {
+        font-size: small;
+    }
+
+    h1 {
+        font-size: 20pt;
     }
 }
