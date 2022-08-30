@@ -11,13 +11,6 @@ body {
 }
 
 div img {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-left: 79%;
-    vertical-align: middle;
-    position: relative;
-    top: 50%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -26,16 +19,16 @@ div img {
 .description {
     background-color: hsl(0, 0%, 100%);
     width: 25%;
-    height: 410px;
+    height: 400px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     padding-left: 30px;
     padding-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    margin: auto;
+
+}
+
+.perfume {
+    padding-top: 15px;
 }
 
 p {
@@ -45,7 +38,6 @@ p {
     color: hsl(212, 21%, 14%);
     font-weight: bold;
     align-self: left;
-    padding-top: 0px;
     line-height: 1.5em;
 }
 
@@ -63,7 +55,6 @@ h1 {
 .price {
     display: inline-block;
     background-color: hsl(0, 0%, 100%);
-    padding-top: 10px;
     padding-bottom: 30px;
 }
 
@@ -73,8 +64,6 @@ h1 {
     font-size: 28px;
     font-family: 'Fraunces';
     font-weight: 900px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     align-content: center;
 }
 
@@ -89,7 +78,6 @@ button {
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
     width: 200px;
-    height: 100px;
     border-radius: 10px;
     font-weight: bold;
     padding-top: 10px;
