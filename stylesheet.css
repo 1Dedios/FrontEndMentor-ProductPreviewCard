@@ -13,17 +13,20 @@ body {
 div img {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+
 }
 
 
 .description {
     background-color: hsl(0, 0%, 100%);
     width: 25%;
-    height: 400px;
+    height: 430px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    position: relative;
     padding-left: 30px;
-    padding-bottom: 38px;
+    padding-top: 8px;
+
 }
 
 .perfume {
@@ -81,6 +84,7 @@ button {
     border-radius: 10px;
     font-weight: bold;
     align-content: center;
+    padding-bottom: 5px;
 }
 
 
