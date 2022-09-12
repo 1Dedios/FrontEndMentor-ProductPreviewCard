@@ -1,8 +1,12 @@
-# ProductPreviewCard
+# Product Preview Card
 
-Site: https://1dedios.github.io/ProductPreviewCard/
+A Front-End Mentor Challenge. 
+You can see the deployed site below. 
 
-Responsive Design: 
+Site: 
+https://1dedios.github.io/FrontEndMentor-ProductPreviewCard/
 
-Mobile: 375px
-Desktop: 1440px
+Media Queries were placed for the following due to the challenge parameters:
+
+- Mobile: 375px
+- Desktop: 1440px
